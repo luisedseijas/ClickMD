@@ -1,0 +1,72 @@
+# ClickMD - Git Ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Conda
+.conda/
+conda-bld/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentación
+docs/_build/
+site/
+
+# Output files
+*.pdb
+*.xdc
+*.xtc
+*.trr
+*.dcd
+*.h5
+traj_*
+results/
+output/
+
+# Moléculas temporales
+temp_*.sdf
+temp_*.pdb
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+*.cache

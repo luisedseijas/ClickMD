@@ -1,0 +1,36 @@
+name: clickmd
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python>=3.8
+  
+  # Simulación molecular
+  - openmm::openmm>=8.0
+  
+  # Neural Network Potentials
+  - pytorch::pytorch
+  - pip
+  
+  # GUI
+  - pyside6>=6.5
+  
+  # Chemistry
+  - ase>=3.23
+  
+  # Computación
+  - numpy>=1.21
+  - scipy>=1.7
+  - matplotlib>=3.5
+  - h5py>=3.0
+  
+  # Desarrollo (opcional)
+  - pytest>=7.0
+  - pytest-cov>=4.0
+  - black>=22.0
+  - isort>=5.0
+  
+  - pip:
+    - torchani>=2.2
+    - pytest-cov>=4.0

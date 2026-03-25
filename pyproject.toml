@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "clickmd"
+version = "0.1.0"
+description = "MVP de simulación molecular con GUI para biólogos y químicos sin experiencia de programación"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Luis Seijas"}]
+keywords = ["molecular simulation", "OpenMM", "TorchANI", "chemistry", "GUI"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+    "openmm>=8.0",
+    "torchani>=2.2",
+    "ase>=3.23",
+    "PySide6>=6.5",
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "matplotlib>=3.5",
+    "h5py>=3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=22.0",
+    "isort>=5.0",
+    "flake8>=4.0",
+    "mypy>=0.990",
+]
+docs = [
+    "sphinx>=5.0",
+    "sphinx-rtd-theme>=1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/tuusuario/ClickMD"
+Documentation = "https://github.com/tuusuario/ClickMD/wiki"
+Repository = "https://github.com/tuusuario/ClickMD"
+
+[project.scripts]
+clickmd = "clickmd.main:main"
+
+[tool.setuptools]
+packages = ["clickmd", "clickmd.core", "clickmd.gui", "clickmd.utils"]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=clickmd --cov-report=html --cov-report=term"
