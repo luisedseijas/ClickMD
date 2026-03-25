@@ -47,9 +47,9 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/tuusuario/ClickMD"
-Documentation = "https://github.com/tuusuario/ClickMD/wiki"
-Repository = "https://github.com/tuusuario/ClickMD"
+Homepage = "https://github.com/luisedseijas/ClickMD"
+Documentation = "https://github.com/luisedseijas/ClickMD/wiki"
+Repository = "https://github.com/luisedseijas/ClickMD"
 
 [project.scripts]
 clickmd = "clickmd.main:main"

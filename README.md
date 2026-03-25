@@ -109,7 +109,7 @@ ClickMD resuelve la **brecha tecnológica** que impide a biólogos experimentale
 
 ### 1. Clonar repositorio
 ```bash
-git clone https://github.com/tuusuario/ClickMD.git
+git clone https://github.com/luisedseijas/ClickMD.git
 cd ClickMD
 ```
 
@@ -279,7 +279,7 @@ Para versión v0.1:
 
 ## 🐛 Reporte de Bugs
 
-Usa [Issues](https://github.com/tuusuario/ClickMD/issues) de GitHub:
+Usa [Issues](https://github.com/luisedseijas/ClickMD/issues) de GitHub:
 1. Checa si el bug ya fue reportado
 2. Proporciona pasos para reproducir
 3. Incluye versión Python, OS, stack trace
@@ -292,8 +292,8 @@ MIT License - Ver [LICENSE](LICENSE) para detalles
 ## 👤 Autor
 
 **Luis Seijas**
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- Email: tu.email@example.com
+- GitHub: [@luisedseijas](https://github.com/luisedseijas)
+- Email: luis@example.com
 
 ---
 
