@@ -58,7 +58,6 @@ ClickMD resuelve la **brecha tecnológica** que impide a biólogos experimentale
 ### Prioridad #1: Estabilidad Over Funcionalidad
 - Es mejor hacer *una sola cosa perfectamente* que intentar hacer todo y fallar
 - MVP inicial: **Simular una molécula pequeña en vacío**
-- Mejor 50 usuarios felices que 1000 usuarios frustrados
 
 ### Prioridad #2: No Reinventar la Rueda
 - **ASE**: gestión química y I/O
